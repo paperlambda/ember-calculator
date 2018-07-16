@@ -1,0 +1,21 @@
+<div style="width:120px">
+    {{input value=result}} <span>{{operator}}</span>
+    <div class="operator" style="display:flex;justify-content:space-between">
+        <button {{action "setOperator" "+"}}>+</button>
+        <button {{action "setOperator" "-"}}>-</button>
+        <button {{action "setOperator" "/"}}>/</button>
+        <button {{action "setOperator" "*"}}>*</button>
+    </div>
+    <div class="number">
+        <button {{action "addNumber" 1}}>1</button>
+        <button {{action "addNumber" 2}}>2</button>
+        <button {{action "addNumber" 3}}>3</button>
+        <button {{action "addNumber" 4}}>4</button>
+        <button {{action "addNumber" 5}}>5</button>
+        <button {{action "addNumber" 6}}>6</button>
+        <button {{action "addNumber" 7}}>7</button>
+        <button {{action "addNumber" 8}}>8</button>
+        <button {{action "addNumber" 9}}>9</button>
+        <button {{action "addNumber" 0}}>0</button>
+    </div>
+</div>
